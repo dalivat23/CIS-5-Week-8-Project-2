@@ -5,7 +5,7 @@
 **Type:** Cumulative mini project (replaces the lab and the homework this week)
 
 
-## Demo video (required)
+## Demo video (https://youtu.be/7vdDwVYEsjE)
 
 Paste a link to a short video of you running this project (tool + code + run).
 Work without a working video link is incomplete.
