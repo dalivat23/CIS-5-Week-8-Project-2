@@ -30,8 +30,13 @@ int main() {
   scores[27] = scoreAt27;
 
   // TODO: print each index and scores[i]
+  for (int i = 0; i < N; i++) 
+    {
+      std::cout << "[" << i + 1 << "] " << scores[i] << " " << std::endl;
+    } 
 
   // TODO: one for loop. Count A, B, C, D, and failing.
+    
   // 90 and up is A. 80 to 89 is B. 70 to 79 is C. 60 to 69 is D.
   // Below 60 is failing. A score of 60 is a D.
   // Print A:, B:, C:, D:, and F:. The five totals add up to 30.
