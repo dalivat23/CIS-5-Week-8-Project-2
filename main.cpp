@@ -35,8 +35,9 @@ int main() {
   int D = 0;
   int F = 0;
 
-
   // TODO: print each index and scores[i]
+  
+  std::cout << "Student Scores" << std::endl;
   for (int i = 0; i < N; i++) 
     {
       std::cout << "[" << i << "] " << scores[i] << " " << std::endl;
@@ -75,13 +76,18 @@ int main() {
   // 90 and up is A. 80 to 89 is B. 70 to 79 is C. 60 to 69 is D.
   // Below 60 is failing. A score of 60 is a D.
   // Print A:, B:, C:, D:, and F:. The five totals add up to 30.
- 
+  
   std::cout 
+    << std::endl
+    << "Grade Totals" << std::endl
     << "A: " << A << std::endl 
     << "B: " << B << std::endl 
     << "C: " << C << std::endl 
     << "D: " << D << std::endl 
-    << "F: " << F << std::endl;
+    << "F: " << F << std::endl
+    << std::endl
+    << "The " << F << " Students who need to go to office hours" << std::endl;
+
   // TODO: one while loop. If scores[i] is under 60, print:
     int i = 0;
   while (i < 30)
