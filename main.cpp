@@ -24,7 +24,7 @@ int main() {
   }
 
   scores[0] = scoreAt0;
-  const int scoreAt27 = 14; // change this number c, keep at line 27
+  const int scoreAt27 = 60; // change this number c, keep at line 27
   scores[10] = scoreAt10;
   scores[20] = scoreAt20;
   scores[27] = scoreAt27;
@@ -71,22 +71,32 @@ int main() {
           F++;
         }
     }
-
-
-  std::cout 
-    << "A:" << A << std::endl 
-    << "B:" << B << std::endl 
-    << "C:" << C << std::endl 
-    << "D:" << D << std::endl 
-    << "F:" << F;
-
     
   // 90 and up is A. 80 to 89 is B. 70 to 79 is C. 60 to 69 is D.
   // Below 60 is failing. A score of 60 is a D.
   // Print A:, B:, C:, D:, and F:. The five totals add up to 30.
-
+ 
+  std::cout 
+    << "A: " << A << std::endl 
+    << "B: " << B << std::endl 
+    << "C: " << C << std::endl 
+    << "D: " << D << std::endl 
+    << "F: " << F << std::endl;
   // TODO: one while loop. If scores[i] is under 60, print:
+    int i = 0;
+  while (i < 30)
+    if (scores[i] < 60)
+      {
+        std::cout << "Student at index " << i << " needs to come to office hours" << std::endl;
+        ++i;
+      }
+    else
+      {
+        ++i;
+      }
   // Student at index i needs to come to office hours.
+  
+ 
   // Put ++i in the loop or it never ends.
 
   return 0;
