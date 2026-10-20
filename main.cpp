@@ -2,9 +2,9 @@
 #include <cstdlib>
 #include <ctime>
 
-const int scoreAt0 = 72; // change this number
+const int scoreAt0 = 54; // change this number c, keep at line 5
 
-// Project 2 — Your Name
+// Project 2 — Tristan Daliva
 // CIS 5 Week 08
 // Do not edit the boilerplate. It randomly generates 30 elements into the array.
 // One main only. No vector. No extra functions. No files.
@@ -12,19 +12,19 @@ const int scoreAt0 = 72; // change this number
 int main() {
   const int N = 30;
   int scores[N];
-  const int scoreAt10 = 81; // change this number
+  const int scoreAt10 = 72; // change this number c, keep at line 15
 
   // Do not edit this boilerplate. It randomly generates 30 elements into the array.
   srand(static_cast<unsigned>(time(nullptr)));
 
-  const int scoreAt20 = 64; // change this number
+  const int scoreAt20 = 41; // change this number c, keep at line 20
 
   for (int i = 0; i < N; ++i) {
     scores[i] = rand() % 100;
   }
 
   scores[0] = scoreAt0;
-  const int scoreAt27 = 41; // change this number
+  const int scoreAt27 = 14; // change this number c, keep at line 27
   scores[10] = scoreAt10;
   scores[20] = scoreAt20;
   scores[27] = scoreAt27;
